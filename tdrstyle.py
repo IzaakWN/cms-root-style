@@ -19,7 +19,7 @@ def SetLumi(lumi, round_lumi=False):
     global cms_lumi
     if lumi!='':
         cms_lumi = f"{lumi:.0f}" if round_lumi else f"{lumi}"
-        cms_lumi += " fb^{-1}"
+        cms_lumi += " fb^{#minus1}"
     else:
         cms_lumi = lumi
 
